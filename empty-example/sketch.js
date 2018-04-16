@@ -2,10 +2,10 @@ var bord1,glas,weather,weather1,weather2,weather3,weather4;
 
 function setup() {
 createCanvas(windowWidth,windowHeight);
-loadJSON('http://api.openweathermap.org/data/2.5/weather?q=Moscow&APPID=a3a15698c91fee65f26ee5df6a6a5bdb&units=metric', gotData1);
-loadJSON('http://api.openweathermap.org/data/2.5/weather?q=Copenhagen&APPID=a3a15698c91fee65f26ee5df6a6a5bdb&units=metric', gotData2);
-loadJSON('http://api.openweathermap.org/data/2.5/weather?q=London&APPID=a3a15698c91fee65f26ee5df6a6a5bdb&units=metric', gotData3);
-loadJSON('http://api.openweathermap.org/data/2.5/weather?q=Paris&APPID=a3a15698c91fee65f26ee5df6a6a5bdb&units=metric', gotData4);
+loadJSON('https://api.openweathermap.org/data/2.5/weather?q=Moscow&APPID=a3a15698c91fee65f26ee5df6a6a5bdb&units=metric', gotData1);
+loadJSON('https://api.openweathermap.org/data/2.5/weather?q=Copenhagen&APPID=a3a15698c91fee65f26ee5df6a6a5bdb&units=metric', gotData2);
+loadJSON('https://api.openweathermap.org/data/2.5/weather?q=London&APPID=a3a15698c91fee65f26ee5df6a6a5bdb&units=metric', gotData3);
+loadJSON('https://api.openweathermap.org/data/2.5/weather?q=Paris&APPID=a3a15698c91fee65f26ee5df6a6a5bdb&units=metric', gotData4);
 bord1=loadImage('bord.jpg');
 glas=loadImage('glas.png');
 }
